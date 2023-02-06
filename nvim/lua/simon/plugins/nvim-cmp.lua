@@ -16,11 +16,6 @@ if not lspkind_status then
 	return
 end
 
--- local tail_col_cmp_ok, tailwindcss_colorizer_cmp = pcall(require, "tailwindcss-colorizer-cmp")
--- if not tail_col_cmp_ok then
--- 	return
--- end
-
 -- load vs-code like snippets from plugins (e.g. friendly-snippets)
 require("luasnip/loaders/from_vscode").lazy_load()
 
@@ -49,15 +44,8 @@ cmp.setup({
 		{ name = "path" }, -- file system paths
 	}),
 	-- configure lspkind for vs-code like icons
-	-- formatting = {
-	-- 	format = lspkind.cmp_format({
-	-- 		maxwidth = 50,
-	-- 		ellipsis_char = "...",
-	-- 		-- before = tailwindcss_colorizer_cmp.formatter,
-	-- 	}),
-	-- },
 	formatting = {
-		format = require("lspkind").cmp_format({
+		format = lspkind.cmp_format({
 			mode = "symbol_text",
 			maxwidth = 50,
 			ellipsis_char = "...",
