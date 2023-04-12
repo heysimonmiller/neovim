@@ -40,6 +40,7 @@ end
 -- configure null_ls
 null_ls.setup({
 	-- setup formatters & linters
+	debug = true,
 	sources = {
 		--  to disable file types use
 		--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)

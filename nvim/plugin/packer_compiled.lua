@@ -268,10 +268,10 @@ _G.packer_plugins = {
     path = "/Users/simonmiller/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
-  ["vim-tmux-navigator"] = {
+  ["zen-mode.nvim"] = {
     loaded = true,
-    path = "/Users/simonmiller/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
-    url = "https://github.com/christoomey/vim-tmux-navigator"
+    path = "/Users/simonmiller/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 

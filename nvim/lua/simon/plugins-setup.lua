@@ -33,7 +33,7 @@ return packer.startup(function(use)
 
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
+	-- use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
@@ -118,6 +118,9 @@ return packer.startup(function(use)
 
 	-- indent vertical lines
 	use("lukas-reineke/indent-blankline.nvim")
+
+	-- zen mode
+	use("folke/zen-mode.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()
