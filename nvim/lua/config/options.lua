@@ -1,3 +1,7 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+-- vim.opt.winbar = "%=%m %f"-- OPTIONS
 local opt = vim.opt -- for conciseness
 
 -- line numbers
@@ -16,7 +20,7 @@ opt.wrap = false
 
 opt.swapfile = false
 opt.backup = false
-opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+-- opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 opt.undofile = true
 
 -- search settings
@@ -37,7 +41,7 @@ opt.isfname:append("@-@")
 
 opt.updatetime = 50
 
-opt.colorcolumn = "80"
+opt.colorcolumn = "110"
 
 -- backspace
 opt.backspace = "indent,eol,start"
@@ -50,4 +54,3 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
-
