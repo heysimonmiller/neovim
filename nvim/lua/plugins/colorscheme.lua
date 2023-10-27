@@ -1,8 +1,8 @@
 return {
-  -- add  onedarkpro
-  { "olimorris/onedarkpro.nvim", priority = 1000 },
+  { "olimorris/onedarkpro.nvim", name = "onedark", priority = 1000 },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  -- { "Mofiqul/dracula.nvim", name = "dracula", priority = 1000 },
 
-  -- Configure LazyVim to load onedarkpro
   {
     "LazyVim/LazyVim",
     opts = {
