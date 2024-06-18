@@ -17,6 +17,7 @@ return {
       markdown = { "prettierd" },
       graphql = { "prettierd" },
       go = { "goimports", "gofumpt" },
+      svelte = { "prettierd" },
       ["markdown.mdx"] = { "prettierd" },
     },
   },
