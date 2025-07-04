@@ -1,6 +1,11 @@
 return {
   "neovim/nvim-lspconfig",
   opts = {
+    inlay_hints = { enabled = false },
+    document_highlight = {
+      enabled = false,
+    },
+    autoformat = true,
     servers = {
       tailwindcss = {
         filetypes_exclude = { "markdown" },

@@ -4,6 +4,10 @@
 -- vim.opt.winbar = "%=%m %f"-- OPTIONS
 local opt = vim.opt -- for conciseness
 
+-- vim.g.lazyvim_eslint_auto_format = false
+-- vim.g.autoformat = false
+--
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
