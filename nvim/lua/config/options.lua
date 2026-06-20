@@ -8,6 +8,11 @@ local opt = vim.opt -- for conciseness
 -- vim.g.autoformat = false
 --
 
+-- Disable the problematic Astro ftplugin to prevent trailing comma error
+vim.g.loaded_astro_ftplugin = 1
+vim.g.loaded_astroPlugin = 1
+vim.g.did_ftplugin_astro = 1
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true

@@ -7,6 +7,7 @@ return {
     },
     autoformat = true,
     servers = {
+      astro = {},
       tailwindcss = {
         filetypes_exclude = { "markdown" },
       },

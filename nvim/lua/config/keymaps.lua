@@ -14,8 +14,8 @@ keymap.set("n", "<leader>nh", ":nohl<CR>") --clear search
 
 keymap.set("n", "x", '"_x') -- delete character but don't copy to register
 
-keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("n", "J", "mzJ`z")
 keymap.set("n", "<C-j>", "<C-d>zz")
 keymap.set("n", "<C-k>", "<C-u>zz")
