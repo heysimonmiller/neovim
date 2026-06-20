@@ -3,7 +3,8 @@
     "lazyvim.plugins.extras.lang.astro",
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.svelte",
-    "lazyvim.plugins.extras.lang.tailwind"
+    "lazyvim.plugins.extras.lang.tailwind",
+    "lazyvim.plugins.extras.lang.zig"
   ],
   "news": {
     "NEWS.md": "11866"
